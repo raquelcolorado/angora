@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Angora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Angora</h1>
+    <p>Pequeños gestos, grandes cambios</p>
+  </header>
+
+  <section id="productos">
+    <div class="producto">
+      <h2>Kit Bienestar</h2>
+      <p>Incluye vela, stickers y guía de autocuidado</p>
+      <button onclick="añadirCarrito('Kit Bienestar')">Añadir al carrito</button>
+    </div>
+  </section>
+
+  <section id="checkout">
+    <h2>Checkout</h2>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="enviarPedido()">Enviar Pedido</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
